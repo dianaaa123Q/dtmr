@@ -1,0 +1,58 @@
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: left;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  input,
+  select {
+    width: calc(100% - 1em);
+    height: 2.5em;
+    margin-bottom: 1.5em;
+    border-radius: 0.25rem;
+    border: 1px solid white;
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
+  
+  form {
+    background-color: rgb(2, 1, 1);
+    color: white;
+    width: 60%;
+    margin:  auto;
+    opacity: 0.9;
+    padding: 2em;
+  }
+  
+  html {
+    background-image:url(https://images5.alphacoders.com/380/380354.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+  }
+  
+  input[type="submit"] {
+    background-color: #201f1f;
+    color: rgb(13, 12, 12);
+    border: 1px solid #faf6f6;
+    padding: 1em 1em;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1a1b1a;
+  }
